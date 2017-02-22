@@ -1,5 +1,5 @@
 name: Mike-Lam
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-title.en: TestSite
-description.en: A site to test Jekyll
+title_en: TestSite
+description_en: A site to test Jekyll
