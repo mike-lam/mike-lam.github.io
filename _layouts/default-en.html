@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>TODO_SITETITLE_EN - TODO_PAGETITLE_EN</title>
+    <title>{{ site.title.en }} - {{ page.title }}</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <!-- Meta data -->
-    <meta name="description" content="TODO_DESCRIPTION_EN" />
+    <meta name="description" content="{{ page.description }}" />
 
     <!-- Meta data-->
     <!--[if gte IE 9 | !IE ]><!-->
@@ -81,7 +81,7 @@
       <div class="row">
         <div id="wb-sttl" class="col-md-8">
   <a href="./index-en.html">
-    <span>TODO_SITETITLE_EN<span class="wb-inv">, </span><small>TODO_SUBTITLE_EN</small></span>
+    <span>{{ site.title.en }}<span class="wb-inv">, </span><small>{{ site.description.en }}</small></span>
   </a>
 </div>
 
@@ -170,7 +170,7 @@
       <section class="col-sm-3">
   <h3>Contact us</h3>
   <ul class="list-unstyled">
-    <li><a href="https://github.com/TODO/issues/new">Questions or comments?</a></li>
+    <li><a href="https://github.com/mike-lam/issues/new">Questions or comments?</a></li>
   </ul>
 </section>
 <section class="col-sm-3">
@@ -183,8 +183,8 @@
 <section class="col-sm-3">
   <h3>News</h3>
   <ul class="list-unstyled">
-    <li><a href="https://github.com/TODO/pulse">Recent project activity</a></li>
-    <li><a href="https://github.com/TODO/graphs">Project statistics</a></li>
+    <li><a href="https://github.com/mike-lam/pulse">Recent project activity</a></li>
+    <li><a href="https://github.com/mike-lam/graphs">Project statistics</a></li>
   </ul>
 </section>
 <section class="col-sm-3">
