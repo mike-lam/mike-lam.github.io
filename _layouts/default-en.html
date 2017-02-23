@@ -43,8 +43,9 @@
 
 <header role="banner">
   <div id="wb-bnr">
+    {% if include_lang == 'y'%}
     {% include lang-en.html %} 
-
+    {% endif %}
     <div class="container">
       <div class="row">
         <div id="wb-sttl" class="col-md-8">
