@@ -7,3 +7,4 @@ description_en: A site to test Jekyll
 include_lang: y
 include_search: y
 include_siteBar: y
+include_menuBar: y
