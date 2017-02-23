@@ -8,5 +8,5 @@ include_lang: y
 include_search: y
 include_siteBar: y
 include_menuBar: y
-include_breadcrumb: y
+include_breadcrumb: n
 
