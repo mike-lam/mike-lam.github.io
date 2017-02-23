@@ -9,4 +9,7 @@ include_search: y
 include_siteBar: y
 include_menuBar: y
 include_breadcrumb: n
-
+include_footerContactUs: n
+include_footerAbout: n
+include_footerNews: n
+include_footerTwitter: n

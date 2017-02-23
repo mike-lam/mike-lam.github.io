@@ -82,32 +82,21 @@
   <div class="container">
     <nav role="navigation" class="row">
       <h2>About this site</h2>
-      <section class="col-sm-3">
-  <h3>Contact us</h3>
-  <ul class="list-unstyled">
-    <li><a href="https://github.com/mike-lam/mike-lam.github.io/issues">Questions or comments?</a></li>
-  </ul>
-</section>
-<section class="col-sm-3">
-  <h3>About</h3>
-  <ul class="list-unstyled">
-    <li><a href="./index-en.html#about">About TODO_SITETITLE_EN</a></li>
-    <li><a href="TODO">About the TODO if needed more than 1</a></li>
-  </ul>
-</section>
-<section class="col-sm-3">
-  <h3>News</h3>
-  <ul class="list-unstyled">
-    <li><a href="https://github.com/mike-lam/mike-lam.github.io/pulse">Recent project activity</a></li>
-    <li><a href="https://github.com/mike-lam/mike-lam.github.io/graphs">Project statistics</a></li>
-  </ul>
-</section>
-<section class="col-sm-3">
-  <h3>Stay connected</h3>
-  <ul class="list-unstyled">
-    <li><a href="https://twitter.com/TODO">Twitter</a></li>
-  </ul>
-</section>
+    {% if site.include_footerContactUs == 'y' %}
+    {% include footerContactUs-en.html %} 
+    {% endif %}
+
+    {% if site.include_footerAbout == 'y' %}
+    {% include footerAbout-en.html %} 
+    {% endif %}
+
+    {% if site.include_footerNews == 'y' %}
+    {% include footerNews-en.html %} 
+    {% endif %}
+
+    {% if site.include_footerTwitter == 'y' %}
+    {% include footerTwitter-en.html %} 
+    {% endif %}
 
     </nav>
   </div>
