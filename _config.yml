@@ -5,4 +5,5 @@ permalink: /blog/:year/:month/:day/:title
 title_en: TestSite
 description_en: A site to test Jekyll
 include_lang: y
-include_search: y
+include_search: n
+include_siteBar: n
