@@ -4,4 +4,4 @@ encoding: UTF-8
 permalink: /blog/:year/:month/:day/:title
 title_en: TestSite
 description_en: A site to test Jekyll
-include_lang: n
+include_lang: y
