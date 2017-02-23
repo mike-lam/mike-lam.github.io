@@ -62,21 +62,10 @@
     </div>
   </div>
 
-  <nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-  <div class="container nvbar">
-    <h2>Topics menu</h2>
-    <div class="row">
-      <ul class="list-inline menu">
-        
-  <li><a href="TODO_Menu1.html">TODO_Menu1</a></li>
-  <li><a href="TODO_Menu2">TODO_Menu2</a></li>
-
-
-      </ul>
-    </div>
-  </div>
-</nav>
-
+ 
+    {% if site.include_menuBar == 'y' %}
+    {% include menuBar-en.html %} 
+    {% endif %}
 
 
   <nav role="navigation" id="wb-bc" property="breadcrumb">
