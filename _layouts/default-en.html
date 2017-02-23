@@ -48,11 +48,9 @@
     {% endif %}
     <div class="container">
       <div class="row">
-        <div id="wb-sttl" class="col-md-8">
-  <a href="./index-en.html">
-    <span>{{ site.title_en }}<span class="wb-inv">, </span><small>{{ site.description_en }}</small></span>
-  </a>
-</div>
+    {% if site.include_siteBar == 'y' %}
+    {% include siteBar-en.html %} 
+    {% endif %}
 
 
     {% if site.include_search == 'y' %}
