@@ -67,39 +67,9 @@
     {% include menuBar-en.html %} 
     {% endif %}
 
-
-  <nav role="navigation" id="wb-bc" property="breadcrumb">
-  <h2>You are here:</h2>
-  <div class="container">
-    <div class="row">
-      <ol class="breadcrumb">
-        <li>
-  <a href="./index-en.html">Home</a>
-</li>
-
-  
-<li>
-  <a href="TODO">TODO Working examples</a>
-</li>
-    
-      
-        
-<li>
-  <a href="TODOindex-en.html">TODO</a>
-</li>
-        
-      
-    
-  
-
-<li>Content page</li>
-
-      </ol>
-    </div>
-  </div>
-</nav>
-
-
+    {% if site.include_breadcrumb == 'y' %}
+    {% include breadcrumb-en.html %} 
+    {% endif %}
 
 </header>
 
