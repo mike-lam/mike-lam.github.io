@@ -13,18 +13,18 @@
 
     <!-- Meta data-->
     <!--[if gte IE 9 | !IE ]><!-->
-<link href="./theme-base/assets/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="{{ "/theme-base/assets/favicon.ico" | relative_url }}" rel="icon" type="image/x-icon"/>
 <link rel="stylesheet" href="{{ "/theme-base/css/theme.min.css" | relative_url }}"/>
 <!--<![endif]-->
 
 <!--[if lt IE 9]>
-<link href="./theme-base/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="./theme-base/css/ie8-theme.min.css" />
+<link href="{{ "/theme-base/assets/favicon.ico" | relative_url }}" rel="shortcut icon" />
+<link rel="stylesheet" href="{{ "/theme-base/css/ie8-theme.min.css" | relative_url }}" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="./wet-boew/js/ie8-wet-boew.min.js"></script>
+<script src="{{ "/wet-boew/js/ie8-wet-boew.min.js" | relative_url }}"></script>
 <![endif]-->
 
-<noscript><link rel="stylesheet" href="./wet-boew/css/noscript.min.css" /></noscript>
+<noscript><link rel="stylesheet" href="{{ "/wet-boew/css/noscript.min.css" | relative_url }}" /></noscript>
 
   </head>
   <body vocab="http://schema.org/" typeof="WebPage">
@@ -106,12 +106,12 @@
 
     <!--[if gte IE 9 | !IE ]><!-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-<script src="./wet-boew/js/wet-boew.min.js"></script>
+<script src="{{ "/wet-boew/js/wet-boew.min.js" | relative_url }}"></script>
 <!--<![endif]-->
 
 
 <!--[if lt IE 9]>
-<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
+<script src="{{ "/wet-boew/js/ie8-wet-boew2.min.js" | relative_url }}"></script>
 
 <![endif]-->
 
