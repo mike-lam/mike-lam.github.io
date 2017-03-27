@@ -5,6 +5,7 @@ permalink: /blog/:year/:month/:day/:title
 title_en: TestSiteE
 title_fr: TestSiteF
 description_en: A site to test Jekyll
+description_fr: Un site pour tester Jekyll
 include_lang: y
 include_search: y
 include_siteBar: y
