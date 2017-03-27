@@ -3,7 +3,7 @@ markdown: kramdown
 encoding: UTF-8
 permalink: /blog/:year/:month/:day/:title
 title_en: TestSiteE
-title_en: TestSiteF
+title_fr: TestSiteF
 description_en: A site to test Jekyll
 include_lang: y
 include_search: y
