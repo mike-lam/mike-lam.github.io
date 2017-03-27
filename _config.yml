@@ -2,7 +2,8 @@ name: Mike-Lam
 markdown: kramdown
 encoding: UTF-8
 permalink: /blog/:year/:month/:day/:title
-title_en: TestSite
+title_en: TestSiteE
+title_en: TestSiteF
 description_en: A site to test Jekyll
 include_lang: y
 include_search: y
