@@ -49,6 +49,9 @@ description: en samples page
     </ol> 
   </li> 
 </ol> 
+
+        {{ page.path | remove:'-en.html' }} {{ page.url | remove:'-en.html' }} {{ page.path | remove:'-en.html' }}
+
 <table class="table table-striped"> 
   <caption>Table caption</caption> 
   <thead> 
