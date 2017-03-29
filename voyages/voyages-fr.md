@@ -50,6 +50,11 @@ description: Nos Voyages
 	}'>
 
   <div class="row">
+    <div class="col-md-9">
+      <div class="wb-geomap-map">
+      </div>
+  </div>
+  <div class="row">
 		<section>
 			<div class="wb-geomap-layers col-md-12">
 				<h3>Destinations</h3>
@@ -100,7 +105,7 @@ description: Nos Voyages
  Voyages dans l'ouest
  <ul class="posts">
    {% for post in site.categories.voyages %}
-     <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{{ post.excerpt }}</li>
+     <li><span>{{ post.date | date_to_string }}</span> Â» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{{ post.excerpt }}</li>
    {% endfor %}
  </ul>
 
