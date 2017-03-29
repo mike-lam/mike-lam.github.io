@@ -22,37 +22,25 @@ description: Nos Voyages
 				"type": "rule",
 				"rule": [
 				{
-					"field": "Rank",
-					"value": [3],
-					"filter": "GREATER_THAN",
+					"field": "Direction",
+					"value": [0],
+					"filter": "EQUAL_TO",
 					"init": {
 						"strokeColor": "#0083f5",
 						"fillColor": "#57a8f0",
-						"pointRadius": 6,
+						"pointRadius": 3,
 						"fillOpacity": 0.80,
 						"strokeWidth": 1.0
 					}
 				},
 				{
-					"field": "Rank",
-					"value": [2, 3],
-					"filter": "BETWEEN",
-					"init": {
-						"strokeColor": "#F90",
-						"fillColor": "#F90",
-						"pointRadius": 8,
-						"fillOpacity": 0.80,
-						"strokeWidth": 1.0
-					}
-				},
-				{
-					"field": "Rank",
+					"field": "Direction",
 					"value": [1],
 					"filter": "EQUAL_TO",
 					"init": {
-						"strokeColor": "#F00",
-						"fillColor": "#F00",
-						"pointRadius": 10,
+						"strokeColor": "#F90",
+						"fillColor": "#F90",
+						"pointRadius": 3,
 						"fillOpacity": 0.80,
 						"strokeWidth": 1.0
 					}
@@ -78,23 +66,23 @@ description: Nos Voyages
 						</caption>
 						<thead>
 							<tr>
-								<th>Rank</th>
+								<th>Direction</th>
 								<th>Census subdivision</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr data-geometry="POINT (-79.3847, 43.6476)" data-type="wkt">
-								<td>1</td>
+								<td>0</td>
 								<td><a href="http://www.wikipedia.org/wiki/Toronto" title="Toronto">Toronto</a></td>
 
 							</tr>
 							<tr data-geometry="POINT (-73.56123, 45.52927)" data-type="wkt">
-								<td>2</td>
+								<td>1</td>
 								<td><a href="http://www.wikipedia.org/wiki/Montreal" title="Montreal">Montreal</a></td>
 								
 							</tr>
 							<tr data-geometry="POINT (-114.05879, 51.04668)" data-type="wkt">
-								<td>3</td>
+								<td>1</td>
 								<td><a href="http://www.wikipedia.org/wiki/Calgary" title="Calgary">Calgary</a></td>
 								
 							</tr>
