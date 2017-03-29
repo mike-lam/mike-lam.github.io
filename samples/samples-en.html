@@ -54,7 +54,7 @@ description: en samples page
         {{ "/abc" | relative_url }}
         {% assign my_array = page.path  | split: "/" %}
 
-{{ my_array.last }}
+{{ my_array.last | remove:'-en.html' }}-fr.html
         
 
 <table class="table table-striped"> 
