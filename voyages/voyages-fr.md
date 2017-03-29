@@ -50,11 +50,6 @@ description: Nos Voyages
 	}'>
 
   <div class="row">
-    <div class="col-md-9">
-      <div class="wb-geomap-map">
-      </div>
-  </div>
-  <div class="row">
 		<section>
 			<div class="wb-geomap-layers col-md-12">
 				<h3>Destinations</h3>
