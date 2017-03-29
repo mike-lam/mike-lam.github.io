@@ -86,7 +86,7 @@ description: Nos Voyages
 								<td><a href="http://www.wikipedia.org/wiki/Calgary" title="Calgary">Calgary</a></td>
 								
 							</tr>
-							<tr data-geometry="POINT (-129.25825, 49.26047)" data-type="wkt">
+							<tr data-geometry="POINT (-123.25825, 49.26047)" data-type="wkt">
 								<td>0</td>
 								<td><a href="http://www.wikipedia.org/wiki/Vancouver" title="Calgary">Vancouver</a></td>
 								
