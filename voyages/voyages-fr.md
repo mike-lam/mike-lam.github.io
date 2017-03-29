@@ -4,7 +4,70 @@ title: Voyages
 description: Nos Voyages  
 ---  
 
-<div id="mygeomap" class="wb-geomap static">
+<div id="mygeomap" class="wb-geomap position"	data-wb-geomap='{
+		"layersFile": "demo/config-en.js",
+		"tables": [{
+			"id": "bbox",
+			"tab": false,
+			"zoom": true,
+			"visible": true,
+			"popups": true
+		},{
+			"id": "cities",
+			"zoom": true,
+			"tab": false,
+			"popups": true,
+			"visible": true,
+			"popupsInfo": {
+				"id": "citiesPopup",
+				"height": 200,
+				"width": 300,
+				"close": true,
+				"content": "<div style=\"white-space:nowrap;\"><p><strong>Census subdivision: </strong>_Census subdivision<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom to city\" aria-label=\"Zoom to city\" onclick=\"wb.doc.zoomFeature()\">Zoom to city</a></div></div>"
+			},
+			"style": {
+				"type": "rule",
+				"rule": [
+				{
+					"field": "Rank",
+					"value": [3],
+					"filter": "GREATER_THAN",
+					"init": {
+						"strokeColor": "#0083f5",
+						"fillColor": "#57a8f0",
+						"pointRadius": 6,
+						"fillOpacity": 0.80,
+						"strokeWidth": 1.0
+					}
+				},
+				{
+					"field": "Rank",
+					"value": [2, 3],
+					"filter": "BETWEEN",
+					"init": {
+						"strokeColor": "#F90",
+						"fillColor": "#F90",
+						"pointRadius": 8,
+						"fillOpacity": 0.80,
+						"strokeWidth": 1.0
+					}
+				},
+				{
+					"field": "Rank",
+					"value": [1],
+					"filter": "EQUAL_TO",
+					"init": {
+						"strokeColor": "#F00",
+						"fillColor": "#F00",
+						"pointRadius": 10,
+						"fillOpacity": 0.80,
+						"strokeWidth": 1.0
+					}
+				}
+			]}
+		}]
+	}'>
+
   <div class="row">
     <div class="col-md-9">
       <div class="wb-geomap-map">
