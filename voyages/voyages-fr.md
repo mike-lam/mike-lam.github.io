@@ -78,7 +78,7 @@ description: Nos Voyages
               {% for post in site.categories.voyages %}
                 <tr data-geometry="POINT (-79.3847, 43.6476)" data-type="wkt">
                   <td>Ouest</td>
-                  <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</td>
+                  <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
                 </tr>
               {% endfor %}
             </tbody>
