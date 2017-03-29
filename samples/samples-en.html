@@ -52,6 +52,10 @@ description: en samples page
 
         {{ page.path | remove:'-en.html' }} {{ page.url | remove:'-en.html' }} {{ page.path | remove:'-en.html' }}
         {{ "/abc" | relative_url }}
+        {% assign my_array = {{ page.path }} | split: "/" %}
+
+{{ my_array.last }}
+        
 
 <table class="table table-striped"> 
   <caption>Table caption</caption> 
