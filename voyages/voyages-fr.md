@@ -5,7 +5,6 @@ description: Nos Voyages
 ---  
 
 <div id="mygeomap" class="wb-geomap position"	data-wb-geomap='{
-		"layersFile": "demo/config-en.js",
 		"tables": [{
 			"id": "bbox",
 			"tab": false,
