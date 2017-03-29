@@ -5,7 +5,8 @@
 			<section id="wb-lng" class="visible-md visible-lg">
 				<h2>Language selection</h2>
 				<ul class="text-right">
-					<li><a lang="fr" hreflang="fr" href={{ "{{ page.path | remove:'-en.html' }}-fr.html" | absolute_url }}>Francais</a></li>
+				  {% assign my_array = page.path  | split: "/" %}
+					<li><a lang="fr" hreflang="fr" href="{{ my_array.last | remove:'-en.html' }}-fr.html">Francais</a></li>
 				</ul>
 			</section>
 		</div>
