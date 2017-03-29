@@ -16,7 +16,7 @@ description: Nos Voyages
 				"height": 200,
 				"width": 300,
 				"close": true,
-				"content": "<div style=\"white-space:nowrap;\"><p><strong>Census subdivision: </strong>_Census subdivision<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom to city\" aria-label=\"Zoom to city\" onclick=\"wb.doc.zoomFeature()\">Zoom to city</a></div></div>"
+				"content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"wb.doc.zoomFeature()\">Zoom a la ville</a></div></div>"
 			},
 			"style": {
 				"type": "rule",
@@ -66,8 +66,8 @@ description: Nos Voyages
 						</caption>
 						<thead>
 							<tr>
-								<th class="hidden">Direction</th>
-								<th>Census subdivision</th>
+								<th>Direction</th>
+								<th>Ville</th>
 							</tr>
 						</thead>
 						<tbody>
