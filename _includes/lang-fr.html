@@ -1,13 +1,16 @@
-<div id="wb-bar"> 
-	<div class="container"> 
-		<div class="row"> 
-			<section id="wb-lng" class="visible-md visible-lg"> 
-				<h2>Sélection du language</h2> 
-				<ul class="text-right"> 
-          {% assign my_array = page.path  | split: "/" %}
-          <li><a lang="fr" hreflang="fr" href="{{ my_array.last | replace: "-fr.","-en." }}">English</a></li> 
-				</ul> 
-			</section> 
-		</div> 
-	</div> 
-</div> 
+
+<div id="wb-bar">
+	<div class="container">
+		<div class="row">
+			<section id="wb-lng" class="visible-md visible-lg">
+				<h2>>Sélection du language</h2>
+				<ul class="text-right">
+				  {% assign my_array = page.path  | split: "/" %}
+                                  {% assign my_link = my_array.last | replace: "-en.","-fr." | replace: ".md",".html" %}
+				  <li><a lang="en" hreflang="en" href="{{ my_link }}">English</a></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+</div>
+
