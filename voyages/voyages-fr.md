@@ -54,7 +54,7 @@ description: Nos Voyages
       <div class="wb-geomap-map">
       </div>
   </div>
-  <div class="row">
+  <div class="row hidden">
 		<section>
 			<div class="wb-geomap-layers col-md-12">
 				<h3>Destinations</h3>
