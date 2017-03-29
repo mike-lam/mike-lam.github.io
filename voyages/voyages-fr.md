@@ -84,30 +84,7 @@ description: Nos Voyages
 				</section>
 			</div>
 
-			<section class="col-md-12">
-				<h4>Bounding Boxes</h4>
-				<table id="bbox" aria-label="Bounding Boxes" class="table table-condensed">
-					<caption>
-						Table of bounding box geometries.
-					</caption>
-					<thead>
-						<tr>
-							<th>Title</th>
-							<th>Geometry</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr data-geometry="-136, 61, -118, 70" data-type="bbox">
-							<td>Report on 2011 field activities and collection of ground thermal and active layer data in the Mackenzie Corridor completed under Northwest Territories science licence #14918</td>
-							<td>-136, 61, -118, 70</td>
-						</tr>
-						<tr data-geometry="-92.5, 72.75, -79, 75.5" data-type="bbox">
-							<td>Dinoflagellate cysts from upper cretaceous-lower tertiary sections, Bylot and Devon Islands, Arctic Archipelago</td>
-							<td>-92.5, 72.75, -79, 75.5</td>
-						</tr>
-					</tbody>
-				</table>
-			</section>
+			
 		</section>
 	</div>
 </div>
