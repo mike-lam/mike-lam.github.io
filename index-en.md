@@ -4,6 +4,7 @@ title: Home
 description: en home page 
 --- 
 
+##References
 * [Jekyll cheatsheets](http://ricostacruz.com/cheatsheets/jekyll.html "Jekyll cheatsheets")
 * [Jekyll Templates](https://jekyllrb.com/docs/templates "Jekyll Templates")
 * [Jekyll Variables](https://jekyllrb.com/docs/variables "Jekyll Variables")
