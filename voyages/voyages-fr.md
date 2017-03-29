@@ -6,12 +6,6 @@ description: Nos Voyages
 
 <div id="mygeomap" class="wb-geomap position"	data-wb-geomap='{
 		"tables": [{
-			"id": "bbox",
-			"tab": false,
-			"zoom": true,
-			"visible": true,
-			"popups": true
-		},{
 			"id": "cities",
 			"zoom": true,
 			"tab": false,
