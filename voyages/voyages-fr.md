@@ -28,7 +28,7 @@ description: Nos Voyages
 					"init": {
 						"strokeColor": "#0083f5",
 						"fillColor": "#57a8f0",
-						"pointRadius": 3,
+						"pointRadius": 8,
 						"fillOpacity": 0.80,
 						"strokeWidth": 1.0
 					}
@@ -40,7 +40,7 @@ description: Nos Voyages
 					"init": {
 						"strokeColor": "#F90",
 						"fillColor": "#F90",
-						"pointRadius": 3,
+						"pointRadius": 8,
 						"fillOpacity": 0.80,
 						"strokeWidth": 1.0
 					}
@@ -59,7 +59,7 @@ description: Nos Voyages
 			<div class="wb-geomap-layers col-md-12">
 				<h3>Destinations</h3>
 				<section>
-					<h4>Cities</h4>
+					<h4>Villes</h4>
 					<table id="cities" aria-label="Points" class="table wb-tables">
 						<caption>
 							Table of point geometries.
@@ -84,6 +84,11 @@ description: Nos Voyages
 							<tr data-geometry="POINT (-114.05879, 51.04668)" data-type="wkt">
 								<td>1</td>
 								<td><a href="http://www.wikipedia.org/wiki/Calgary" title="Calgary">Calgary</a></td>
+								
+							</tr>
+							<tr data-geometry="POINT (-129.25825, 49.26047)" data-type="wkt">
+								<td>0</td>
+								<td><a href="http://www.wikipedia.org/wiki/Vancouver" title="Calgary">Vancouver</a></td>
 								
 							</tr>
 						</tbody>
