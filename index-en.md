@@ -12,7 +12,7 @@ description: en home page
 * [Kramdown Quickref] (https://kramdown.gettalong.org/quickref.html "Kramdown Quickref")
 
  
-    <dl id="wb-dtmd"> 
+<dl id="wb-dtmd"> 
   <dt>Date modified:&#32;</dt> 
   <dd><time property="dateModified">{{ site.time }}</time></dd> 
 </dl> 
