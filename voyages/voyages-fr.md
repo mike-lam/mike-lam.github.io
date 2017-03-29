@@ -4,7 +4,7 @@ title: Voyages
 description: Nos Voyages  
 ---  
 
-<div id="mygeomap" class="wb-geomap position">
+<div id="mygeomap" class="wb-geomap static">
   <div class="row">
     <div class="col-md-9">
       <div class="wb-geomap-map">
