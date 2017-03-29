@@ -54,7 +54,7 @@ description: Nos Voyages
       <div class="wb-geomap-map">
       </div>
   </div>
-  <div class="row hidden">
+  <div class="row">
 		<section>
 			<div class="wb-geomap-layers col-md-12">
 				<h3>Destinations</h3>
@@ -66,7 +66,7 @@ description: Nos Voyages
 						</caption>
 						<thead>
 							<tr>
-								<th>Direction</th>
+								<th class="hidden">Direction</th>
 								<th>Census subdivision</th>
 							</tr>
 						</thead>
