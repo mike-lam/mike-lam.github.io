@@ -23,7 +23,7 @@ description: Nos Voyages
 				"rule": [
 				{
 					"field": "Direction",
-					"value": [0],
+					"value": ["Ouest"],
 					"filter": "EQUAL_TO",
 					"init": {
 						"strokeColor": "#0083f5",
@@ -35,7 +35,7 @@ description: Nos Voyages
 				},
 				{
 					"field": "Direction",
-					"value": [1],
+					"value": ["Est"],
 					"filter": "EQUAL_TO",
 					"init": {
 						"strokeColor": "#F90",
@@ -72,22 +72,22 @@ description: Nos Voyages
 						</thead>
 						<tbody>
 							<tr data-geometry="POINT (-79.3847, 43.6476)" data-type="wkt">
-								<td>0</td>
+								<td>Ouest</td>
 								<td><a href="http://www.wikipedia.org/wiki/Toronto" title="Toronto">Toronto</a></td>
 
 							</tr>
 							<tr data-geometry="POINT (-73.56123, 45.52927)" data-type="wkt">
-								<td>1</td>
+								<td>Ouest</td>
 								<td><a href="http://www.wikipedia.org/wiki/Montreal" title="Montreal">Montreal</a></td>
 								
 							</tr>
 							<tr data-geometry="POINT (-114.05879, 51.04668)" data-type="wkt">
-								<td>1</td>
+								<td>Est</td>
 								<td><a href="http://www.wikipedia.org/wiki/Calgary" title="Calgary">Calgary</a></td>
 								
 							</tr>
 							<tr data-geometry="POINT (-123.25825, 49.26047)" data-type="wkt">
-								<td>0</td>
+								<td>Est</td>
 								<td><a href="http://www.wikipedia.org/wiki/Vancouver" title="Calgary">Vancouver</a></td>
 								
 							</tr>
