@@ -4,10 +4,7 @@ title: Home
 description: en home page 
 --- 
 
-[link](http://kramdown.gettalong.org "hp")
-    
-   
-* [Jekyll cheatsheets] (http://ricostacruz.com/cheatsheets/jekyll.html)
+* [Jekyll cheatsheets](http://ricostacruz.com/cheatsheets/jekyll.html)
 * [Jekyll Templates] (https://jekyllrb.com/docs/templates "Jekyll Templates")
 * [Jekyll Variables] (https://jekyllrb.com/docs/variables "Jekyll Variables")
 * [Jekyll Posts] (https://jekyllrb.com/docs/posts "Jekyll Posts")
