@@ -6,7 +6,8 @@
 				<h2>Language selection</h2>
 				<ul class="text-right">
 				  {% assign my_array = page.path  | split: "/" %}
-					<li><a lang="fr" hreflang="fr" href=="{{ my_array.last | replace: "-fr.","-en." }}">Francais</a></li>
+                                  {% assign my_link = my_array.last | replace: "-en.","-fr." | replace: ".md",".html" %}
+				  <li><a lang="fr" hreflang="fr" href="{{ my_link }}">Francais</a></li>
 				</ul>
 			</section>
 		</div>
