@@ -99,10 +99,6 @@
  
   <footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr"> 
   <div class="container"> 
-    <dl id="wb-dtmd"> 
-      <dt>Date modified:&#32;</dt> 
-      <dd><time property="dateModified">{{ site.time }}</time></dd> 
-    </dl> 
     <nav role="navigation" class="row"> 
       <h2>About this site</h2> 
     {% if include.footerContactUs == 'y' %} 
@@ -126,6 +122,10 @@
 
  
     </nav> 
+    <dl id="wb-dtmd"> 
+      <dt>Date modified:&#32;</dt> 
+      <dd><time property="dateModified">{{ site.time }}</time></dd> 
+    </dl> 
   </div> 
 </footer> 
 
