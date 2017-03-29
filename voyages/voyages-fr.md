@@ -66,11 +66,10 @@ description: Nos Voyages
       <div class="wb-geomap-map">
       </div>
   </div>
-<div class="row">
+  <div class="row">
 		<section>
 			<div class="wb-geomap-layers col-md-12">
-				<h3>Example - Inline Layer Data</h3>
-				<p>Layers are created from the following tables. An attribute <em>data-geometry</em> to hold the geometry and an attribute <em>data-type</em> to hold the geometry type (wkt or bbox) are required for each row.</p>
+				<h3>Destinations</h3>
 				<section>
 					<h4>Points</h4>
 					<table id="cities" aria-label="Points" class="table wb-tables">
