@@ -16,7 +16,7 @@ description: Nos Voyages
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#_Ville\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"wb.doc.zoomFeature()\">Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"wb.doc.zoomFeature()\">Zoom a la ville</a></div></div>"
       },
       "style": {
         "type": "rule",
@@ -74,7 +74,7 @@ description: Nos Voyages
               {% for post in site.categories.voyages %}
                 <tr data-geometry="{{ post.point }}" data-type="wkt">
                   <td>Ouest</td>
-                  <td><a href="{{ post.url }}" title="{{ post.title }}" id="{{ post.title }}">{{ post.title }}</a></td>
+                  <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
                 </tr>
               {% endfor %}
             </tbody>
