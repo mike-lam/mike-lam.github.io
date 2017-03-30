@@ -16,7 +16,7 @@ description: Nos Voyages
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#{{ post.title }}\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"wb.doc.zoomFeature()\">Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#_Ville\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"wb.doc.zoomFeature()\">Zoom a la ville</a></div></div>"
       },
       "style": {
         "type": "rule",
