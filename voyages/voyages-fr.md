@@ -71,12 +71,8 @@ description: Nos Voyages
               </tr>
             </thead>
             <tbody>
-              <tr data-geometry="POINT (-79.3847, 43.6476)" data-type="wkt">
-                <td>Ouest</td>
-                <td><a href="http://www.wikipedia.org/wiki/Toronto" title="Toronto">Toronto</a></td>
-              </tr>
               {% for post in site.categories.voyages %}
-                <tr data-geometry="POINT (-79.3847, 43.6476)" data-type="wkt">
+                <tr data-geometry="{{ post.point }}" data-type="wkt">
                   <td>Ouest</td>
                   <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
                 </tr>
@@ -88,12 +84,3 @@ description: Nos Voyages
     </section>
   </div>
 </div>
-
-
- Voyages dans l'ouest
- <ul class="posts">
-   {% for post in site.categories.voyages %}
-     <li><span>{{ post.date | date_to_string }}</span> Â» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{{ post.excerpt }}</li>
-   {% endfor %}
- </ul>
-
