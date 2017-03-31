@@ -11,3 +11,5 @@ On a couche a Chilliwack dans un hotel.
 ![1](assets/20160712_173530.jpg)
 ![2](20160712_173723.jpg)
 ![3](20160712_173753.jpg)
+<img src="20160712_173723.jpg" alt="4"/>
+<img src="20160712_173753.jpg" alt="5"/>
