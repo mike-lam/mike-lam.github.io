@@ -12,3 +12,7 @@ On a couche a Chilliwack dans un hotel.
 ![2](/voyages/20160712_173538.jpg)
 ![3](/voyages/20160712_173723.jpg)
 ![4](/voyages/20160712_173753.jpg)
+
+<video title="Suspect">
+    <source type="video/youtube" src="https://youtu.be/uUzkajy0tSs" />
+  </video>
