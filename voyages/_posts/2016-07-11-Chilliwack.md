@@ -15,9 +15,13 @@ On a couche a Chilliwack dans un hotel.
 
   <figure class="wb-mltmd" data-wb-mltmd='{"shareUrl": "http://www.youtube.com/watch?v=9znKJqnFuuY"}'>
   <video title="Suspect">
-    <source type="video/youtube" src="https://youtu.be/uUzkajy0tSs" />
+    <source type="video/youtube" src="https://www.youtube.com/watch?v=uUzkajy0tSs&feature=youtu.be" />
   </video>
   <figcaption>
     <p>Suspect</p>
   </figcaption>
 </figure>
+
+  <video title="Suspect">
+    <source type="video/youtube" src="https://www.youtube.com/watch?v=uUzkajy0tSs&feature=youtu.be" />
+  </video>
