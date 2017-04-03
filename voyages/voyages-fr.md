@@ -16,7 +16,7 @@ description: Nos Voyages
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<p><strong>Direction: </strong>_Direction<\div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<p><strong>Direction: </strong>_Direction</div>"
       },
       "style": {
         "type": "rule",
