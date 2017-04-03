@@ -24,7 +24,7 @@ function zoomFeature(cName) {
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature(\'' _Ville'\')\">Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature(\' _Ville\')\">Zoom a la ville</a></div></div>"
       },
       "style": {
         "type": "rule",
