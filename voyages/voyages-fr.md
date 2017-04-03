@@ -11,7 +11,10 @@ function zoomFeature() {
   var i;
   var txt = "";
   for (i = 0; i < c.length; i++) {
-    txt = txt + c[i].children[0].children[1].id + "; ";
+    if (c[i].children[0].children[1].checked) {
+      txt=c[i].children[0].children[1].id;
+      break;
+    }
   }
   alert("I am an alert box! "+txt);
 }
