@@ -7,8 +7,12 @@ description: Nos Voyages
 <script>
 
 function zoomFeature(cName) {
-    var x = document.getElementsByName(cName)[0].id;
-    alert("I am an alert box! "+id);
+  var c = document.getElementsByName("ville);
+  var i;
+  for (i = 0; i < c.length; i++) {
+    txt = txt + c[i].tagName + "<br>";
+  }
+  alert("I am an alert box! "+id);
 }
 </script>
 
@@ -24,7 +28,7 @@ function zoomFeature(cName) {
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature(\' _Ville\')\">Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature()\">Zoom a la ville</a></div></div>"
       },
       "style": {
         "type": "rule",
@@ -80,7 +84,7 @@ function zoomFeature(cName) {
             </thead>
             <tbody>
               {% for post in site.categories.voyages %}
-                <tr name="{{ post.title }}" data-geometry="{{ post.point }}" data-type="wkt">
+                <tr name="ville" data-geometry="{{ post.point }}" data-type="wkt">
                   <td>Ouest</td>
                   <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
                 </tr>
