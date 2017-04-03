@@ -4,6 +4,12 @@ title: Voyages
 description: Nos Voyages  
 ---  
 
+<script>
+function zoomFeature() {
+    alert("I am an alert box!");
+}
+</script>
+
 <div id="mygeomap" class="wb-geomap position"  data-wb-geomap='{
     "tables": [{
       "id": "cities",
