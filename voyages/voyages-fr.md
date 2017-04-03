@@ -6,7 +6,7 @@ description: Nos Voyages
 
 <script>
 
-function zoomFeature(cName) {
+function zoomFeature() {
   var c = document.getElementsByName("ville);
   var i;
   for (i = 0; i < c.length; i++) {
