@@ -11,7 +11,7 @@ function zoomFeature() {
   var i;
   var txt = "";
   for (i = 0; i < c.length; i++) {
-    txt = txt + c[i].children[0].id + "; ";
+    txt = txt + c[i].children[0].children[1].id + "; ";
   }
   alert("I am an alert box! "+txt);
 }
