@@ -82,7 +82,7 @@ var layer = mapSample.getLayersByName( "cities" )[ 0 ],
             </thead>
             <tbody>
               {% for post in site.categories.voyages %}
-                <tr id="{{ post.title }}" data-geometry="{{ post.point }}" data-type="wkt">
+                <tr name="{{ post.title }}" data-geometry="{{ post.point }}" data-type="wkt">
                   <td>Ouest</td>
                   <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
                 </tr>
