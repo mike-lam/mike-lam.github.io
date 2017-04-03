@@ -11,9 +11,9 @@ function zoomFeature() {
   var i;
   var txt = "";
   for (i = 0; i < c.length; i++) {
-    txt = txt + c[i].tagName + "<br>";
+    txt = txt + c[i].children[0].id + "; ";
   }
-  alert("I am an alert box! "+id);
+  alert("I am an alert box! "+txt);
 }
 </script>
 
