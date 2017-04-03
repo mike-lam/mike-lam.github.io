@@ -16,7 +16,7 @@ description: Nos Voyages
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><div style=\"white-space:nowrap;\"><p><strong>Direction: </strong>_Direction<div><p><strong>Temp: </strong>_Temp<div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<p><strong>Direction: </strong>_Direction<\div>"
       },
       "style": {
         "type": "rule",
@@ -68,7 +68,6 @@ description: Nos Voyages
               <tr>
                 <th>Direction</th>
                 <th>Ville</th>
-              <th>Temp</th>
               </tr>
             </thead>
             <tbody>
@@ -78,9 +77,6 @@ description: Nos Voyages
                   <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
 <a id="{{ post.title }}"/>
 
-<td>
-<a class="btn btn-default btn-sm geomap-zoomto" href="javascript:;" data-layer="#cities" data-map="mygeomap" data-feature="OpenLayers_Feature_Vector_61">Zoom à l'élément</a>
-</td>
                 </tr>
               {% endfor %}
             </tbody>
