@@ -32,7 +32,7 @@ function zoomFeature() {
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature()\">Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature()\">Zoom a la ville</a><a href=\"#_Ville\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" >Zoom a la ville</a></div></div>"
       },
       "style": {
         "type": "rule",
@@ -91,6 +91,7 @@ function zoomFeature() {
                 <tr name="ville" data-geometry="{{ post.point }}" data-type="wkt">
                   <td>Ouest</td>
                   <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+<a id="{{ post.title }}"/>
                 </tr>
               {% endfor %}
             </tbody>
