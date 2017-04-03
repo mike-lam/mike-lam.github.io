@@ -5,8 +5,13 @@ description: Nos Voyages
 ---  
 
 <script>
+var $document=wb.doc,mapSample
+
 function zoomFeature() {
-    alert("I am an alert box!");
+var layer = mapSample.getLayersByName( "cities" )[ 0 ],
+		feats = layer.features,
+		len;
+    alert("I am an alert box! "+layer);
 }
 </script>
 
