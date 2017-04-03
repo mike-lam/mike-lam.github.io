@@ -7,7 +7,7 @@ description: Nos Voyages
 <script>
 
 function zoomFeature() {
-  var c = document.getElementsByName("ville);
+  var c = document.getElementsByName("ville");
   var i;
   var txt = "";
   for (i = 0; i < c.length; i++) {
