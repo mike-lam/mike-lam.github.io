@@ -16,7 +16,8 @@ function zoomFeature() {
       break;
     }
   }
-  alert("I am an alert box! "+txt);
+  var top = document.getElementById(txt).offsetTop; //Getting Y of target element
+  window.scrollTo(0, top);                        //Go there directly or some transition
 }
 </script>
 
@@ -32,7 +33,7 @@ function zoomFeature() {
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature()\">Zoom a la ville</a><a href=\"#_Ville\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" >Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature()\">Zoom a la ville</a></div></div>"
       },
       "style": {
         "type": "rule",
