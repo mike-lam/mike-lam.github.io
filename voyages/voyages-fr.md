@@ -6,11 +6,9 @@ description: Nos Voyages
 
 <script>
 
-function zoomFeature() {
-var layer = mapSample.getLayersByName( "cities" )[ 0 ],
-		feats = layer.features,
-		len;
-    alert("I am an alert box! "+layer);
+function zoomFeature(cName) {
+    var x = document.getElementsByName(cName)[0].id;
+    alert("I am an alert box! "+id);
 }
 </script>
 
@@ -26,7 +24,7 @@ var layer = mapSample.getLayersByName( "cities" )[ 0 ],
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature()\">Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature(_Ville)\">Zoom a la ville</a></div></div>"
       },
       "style": {
         "type": "rule",
