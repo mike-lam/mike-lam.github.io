@@ -12,7 +12,7 @@ function zoomFeature() {
   var txt = "";
   for (i = 0; i < c.length; i++) {
     if (c[i].children[0].children[1].checked) {
-      txt=c[i].children[0].children[1].id;
+      txt=c[i].id;
       break;
     }
   }
