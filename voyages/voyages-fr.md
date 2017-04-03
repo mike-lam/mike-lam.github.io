@@ -4,22 +4,6 @@ title: Voyages
 description: Nos Voyages  
 ---  
 
-<script>
-
-function zoomFeature() {
-  var c = document.getElementsByName("ville");
-  var i;
-  var txt = "";
-  for (i = 0; i < c.length; i++) {
-    if (c[i].children[0].children[1].checked) {
-      txt=c[i].id;
-      break;
-    }
-  }
-  document.getElementById(txt).scrollIntoView();   
-}
-</script>
-
 <div id="mygeomap" class="wb-geomap position"  data-wb-geomap='{
     "tables": [{
       "id": "cities",
@@ -32,7 +16,7 @@ function zoomFeature() {
         "height": 200,
         "width": 300,
         "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div><a href=\"#\" class=\"button\" role=\"button\" title=\"Zoom a la ville\" aria-label=\"Zoom a la ville\" onclick=\"zoomFeature()\">Zoom a la ville</a></div></div>"
+        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<div></div></div>"
       },
       "style": {
         "type": "rule",
