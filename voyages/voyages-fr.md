@@ -16,8 +16,7 @@ function zoomFeature() {
       break;
     }
   }
-  var top = document.getElementById(txt).offsetTop; //Getting Y of target element
-  window.scrollTo(0, top);                        //Go there directly or some transition
+  document.getElementById(txt).scrollIntoView();   
 }
 </script>
 
