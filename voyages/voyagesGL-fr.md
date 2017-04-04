@@ -19,9 +19,9 @@ description: Nos Voyages
   <tbody>
   {% for post in site.categories.voyages %}
     <tr>
-      <td>{{ post.date }}</td>
+      <td>{{ post.date | date_to_string }}</td>
       <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
-      <td>DirectionXXX</td>
+      <td>{{ post.direction }}</td>
     </tr>
   {% endfor %}
   </tbody>
