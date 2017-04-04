@@ -8,7 +8,8 @@ direction: "Ouest"
 
 <style>
 img {
-  text-align:center
+     display: block;
+     margin: auto;
 }
 </style>
 
