@@ -6,6 +6,12 @@ point: "POINT (-123.262334, 49.261421)"
 direction: "Ouest"
 ---
 
+<style>
+img {
+  text-align:center
+}
+</style>
+
 Nous nous somme rendu jusqu'à Vancouver. On a été au [Capilano Suspension Bridge Parks](https://www.capbridge.com/ "Capilano Suspension Bridge Parks") ou nous avons traversé le pont a suspension (Lili n'a pas aimé le pont). Nous avons monté et marché dans le tree top walk et le cliffwalk.
 
 Nous nous retournions quand nous avons pensé que nous avions oublié d'aller à la mer. Nous avons retourné de bord. Nous avons cherché la plage ... pour finalement trouver le passage pour descendre la falaise à travers les arbres. Toute une descente! Pour s'apercevoir à mi-chemin que c'est une plage ...
