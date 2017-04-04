@@ -11,6 +11,7 @@ Nous nous somme rendu jusqu'à Vancouver. On a été au [Capilano Suspension Bri
 Nous nous retournions quand nous avons pensé que nous avions oublié d'aller à la mer. Nous avons retourné de bord. Nous avons cherché la plage ... pour finalement trouver le passage pour descendre la falaise à travers les arbres. Toute une descente! Pour s'apercevoir à mi-chemin que c'est une plage ...
 
 <div style="text-align:center;">
+
 ![1](/voyages/20160713_110752.jpg)
 ![1](/voyages/20160713_120950.jpg)
 ![1](/voyages/20160713_121637.jpg)
@@ -19,4 +20,5 @@ Nous nous retournions quand nous avons pensé que nous avions oublié d'aller à
 ![1](/voyages/20160713_123644.jpg)
 ![1](/voyages/20160713_125115.jpg)
 ![1](/voyages/20160713_160841.jpg)
+
 </div>
