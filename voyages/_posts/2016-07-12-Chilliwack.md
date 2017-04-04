@@ -1,7 +1,7 @@
 ---
 layout: personal-fr
 title: "Chilliwack "
-date: 2016-07-11
+date: 2016-07-12
 point: "POINT (-121.958519, 49.142170)" 
 direction: "Ouest"
 ---
