@@ -4,85 +4,30 @@ title: Voyages
 description: Nos Voyages  
 ---  
 
-<div id="mygeomap" class="wb-geomap position"  data-wb-geomap='{
-    "tables": [{
-      "id": "cities",
-      "zoom": true,
-      "tab": false,
-      "popups": true,
-      "visible": true,
-      "popupsInfo": {
-        "id": "citiesPopup",
-        "height": 200,
-        "width": 300,
-        "close": true,
-        "content": "<div style=\"white-space:nowrap;\"><p><strong>Ville: </strong>_Ville<p><strong>Direction: </strong>_Direction</div>"
-      },
-      "style": {
-        "type": "rule",
-        "rule": [
-        {
-          "field": "Direction",
-          "value": ["Ouest"],
-          "filter": "EQUAL_TO",
-          "init": {
-            "strokeColor": "#0083f5",
-            "fillColor": "#57a8f0",
-            "pointRadius": 8,
-            "fillOpacity": 0.80,
-            "strokeWidth": 1.0
-          }
-        },
-        {
-          "field": "Direction",
-          "value": ["Est"],
-          "filter": "EQUAL_TO",
-          "init": {
-            "strokeColor": "#F90",
-            "fillColor": "#F90",
-            "pointRadius": 8,
-            "fillOpacity": 0.80,
-            "strokeWidth": 1.0
-          }
-        }
-      ]}
-    }]
-  }'>
-
-  <div class="row">
-    <div class="col-md-9">
-      <div class="wb-geomap-map">
-      </div>
-  </div>
-  <div class="row">
-    <section>
-      <div class="wb-geomap-layers col-md-12">
-        <h3>Destinations</h3>
-        <section>
-          <h4>Villes</h4>
-          <table id="cities" aria-label="Points" class="table wb-tables">
-            <caption>
-              Table of point geometries.
-            </caption>
-            <thead>
-              <tr>
-                <th>Direction</th>
-                <th>Ville</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for post in site.categories.voyages %}
-                <tr data-geometry="{{ post.point }}" data-type="wkt">
-                  <td>Ouest</td>
-                  <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
-<a id="{{ post.title }}"/>
-
-                </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </section>
-      </div>
-    </section>
-  </div>
+<div>
+<iframe src="https://www.google.com/maps/d/embed?mid=1_7c99T5F5ifV7p6hQWbARmetO9k" height="480" width="100%"></iframe>
+<!-- 
+to edit this map use 
+https://www.google.com/maps/d/u/0/edit?mid=1_7c99T5F5ifV7p6hQWbARmetO9k&ll=49.389092877911395%2C-103.03218839375&z=5
+and I think must be log as ****m4146**
+-->
 </div>
+
+<table class="wb-tables table table-striped table-hover" data-wb-tables='{ "paging" : false }'>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Ville</th>
+      <th>Direction</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for post in site.categories.voyages %}
+    <tr>
+      <td>{{ post.date | date_to_string }}</td>
+      <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+      <td>{{ post.direction }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
